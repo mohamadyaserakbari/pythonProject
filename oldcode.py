@@ -226,3 +226,25 @@ print('Pc tried >> ' + cnt + ' << times to win this game.\n')
 # class Thermo(Device):
 #     def get_degree(self):
 #         return result
+
+
+
+# from __future__ import print_function
+# from datetime import date, datetime, timedelta
+# import mysql.connector
+
+# cnx = mysql.connector.connect(user='root', database='learn')
+# cursor = cnx.cursor()
+# cursor.execute('insert into people values (\'far\',38,\'f\')')
+# cnx.commit()
+# cnx.close()
+
+# cnx = mysql.connector.connect(user='root', database='learn')
+# cursor = cnx.cursor()
+# query = 'select * from people;'
+# cursor.execute(query)
+# for (name, age, gender) in cursor:
+#     print('%s is a %s and the age is %s' % (name, age, gender))
+# cnx.close()
+
+
