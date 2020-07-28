@@ -247,4 +247,16 @@ print('Pc tried >> ' + cnt + ' << times to win this game.\n')
 #     print('%s is a %s and the age is %s' % (name, age, gender))
 # cnx.close()
 
+# import re
+#
+# # str = 'salam yaser | salam ahmad | salam hashem | salam zb'
+# # a = re.search(r'salam', str)
+# # print(a)
+# input = 'the price of oil is 65$ for 6liter'
+# # a = re.search(r'.+\@.+\..{2,3}', input)
+# a = re.findall(r'the price of oil is (\d+)\$ for (\d+)liter', input)
+# # b = re.findall(r'(\w+$)', input)
+# price, liter = a[0]
+# print(a[0], price, liter)
+
 
