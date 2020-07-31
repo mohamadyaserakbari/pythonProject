@@ -260,3 +260,53 @@ print('Pc tried >> ' + cnt + ' << times to win this game.\n')
 # print(a[0], price, liter)
 
 
+# import requests
+# import re
+#
+# r = requests.get('https://www.digistyle.com/')
+# i = r.text
+# a = re.findall(r'wordpress', i)
+# print(a)
+#
+# import requests
+#
+# r = requests.get('https://api.coinbase.com/v2/prices/buy?currency=USD')
+# result = r.json()['data']['amount']
+# rr = round(float(result))
+# rr = round(rr*22000)
+# #print(rr+ '$')
+# if rr < 5000000 :
+#     print('Time to buy yaserrrrrr'+ '\n' + 'Right now is : %i تومان' %rr)
+# else :
+#     print('Dont buy right now yaser. it is so expensive. '+ '\n' + 'Right now is : %i تومان' %rr)
+
+# setA = {1, 2, 54, 487, 98, 22, 44, 11, 365, 147}
+# setB = {2, 35, 147, 258, 258, 47, 14, 25, 22, 11, 99, 98}
+# print(setA)
+# print(setB)
+# print(setB.isdisjoint(setA))
+
+
+# from collections import Counter
+#
+# a = "aaaaabbbbb"
+# my_cnt = Counter(a)
+# print(list(my_cnt.keys())[0], " : ", list(my_cnt.values())[0])
+# print(list(my_cnt.keys())[1], " : ", list(my_cnt.values())[1])
+# print(my_cnt.items())
+# l = len(list(my_cnt))
+# while l != 0:
+#     print(my_cnt.most_common(l))
+#     l = l - 1
+# l2 = len(list(my_cnt))
+# l2 = l2 - 1
+# while l2 != -1:
+#     print(list(my_cnt.keys())[l2], " : ", list(my_cnt.values())[l2])
+#     l2 = l2 - 1
+
+
+# from itertools import product
+# from itertools import permutations
+#from itertools import combinations, combinations_with_replacement
+
+
