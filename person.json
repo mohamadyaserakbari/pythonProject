@@ -1,0 +1,10 @@
+{
+   "name": "Yaser",
+   "age": 23,
+   "city": "Qom",
+   "hasChildern": false,
+   "title": [
+      "engineer",
+      "Python ML Developer"
+   ]
+}

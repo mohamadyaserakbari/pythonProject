@@ -1,0 +1,10 @@
+person = {
+  "name": "Yaser",
+  "age": 23,
+  "city": "Qom",
+  "hasChildern": False,
+  "title": [
+    "engineer",
+    "Python Developer"
+  ]
+}
